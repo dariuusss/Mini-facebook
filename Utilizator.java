@@ -73,7 +73,7 @@ public class Utilizator {
             if(Postare.postari[j].owner.nume_utilizator.equals(this.nume_utilizator))
                 suma = suma + Postare.postari[j].getNumber_of_likes();
 
-        for(j = 0; j < Comentariu.nr_total_comentarii;j++)
+        for(j = 0; j < Comentariu.nr_total_comentarii ; j++)
             if(Comentariu.comentarii[j].owner_name.equals(this.nume_utilizator))
                 suma = suma + Comentariu.comentarii[j].getNr_aprecieri_comm_curent();
 
