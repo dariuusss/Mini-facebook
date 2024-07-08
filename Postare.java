@@ -50,7 +50,7 @@ public class Postare {
         nr_total_postari++;
         this.owner = proprietar;
         Postare []copie = new Postare[nr_total_postari];
-        for(int i = 0; i < nr_total_postari - 1;i++)
+        for(int i = 0 ; i < nr_total_postari - 1 ; i++)
             copie[i] = postari[i];
         postari = new Postare[nr_total_postari];
         for(int i = 0; i < nr_total_postari - 1;i++)
